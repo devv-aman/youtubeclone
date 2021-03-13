@@ -20,6 +20,8 @@ const Home = () => {
 
             <p>{sampleGlobalVar} in Home</p>
 
+            {/* init */}
+
             <br />
             <br />
             <button
