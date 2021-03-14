@@ -1,0 +1,23 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebarContainer {
+    width: 16%;
+}
+
+.sidebarContainer a:hover p,
+.sidebarContainer a:hover svg,
+.sidebarContainer--subscriptions a:hover p,
+.sidebarContainer .cursor-pointer:hover p,
+.sidebarContainer .cursor-pointer:hover svg {
+    color: #000;
+}
+
+.menubar a.active {
+    background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+}
+
+.menubar a.active svg {
+    color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
