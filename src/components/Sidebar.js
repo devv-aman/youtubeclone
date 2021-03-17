@@ -103,7 +103,7 @@ const Sidebar = () => {
     }, []);
 
     return (
-        <div className="sidebarContainer p-6 shadow-xl rounded-3xl bg-white">
+        <div className="sidebarContainer fixed z-50 p-6 shadow-xl rounded-3xl bg-white overflow-y-scroll">
             <div className="flex justify-center w-full py-2 mb-8">
                 <img className="w-32" src={YoutubeLogo} alt="Youtube Logo" />
             </div>

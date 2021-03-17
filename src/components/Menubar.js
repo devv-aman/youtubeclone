@@ -60,7 +60,7 @@ const Menubar = () => {
     }, []);
 
     return (
-        <div className="menubar flex flex-grow shadow-xl rounded-2xl bg-white ml-6 p-4">
+        <div className="menubar flex flex-grow shadow-xl rounded-2xl bg-white p-4 mb-8">
             {icons.map((icon) => {
                 if (icon.label === "search") {
                     return (

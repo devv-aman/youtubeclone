@@ -2,8 +2,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+.body {
+    margin-left: 20%;
+}
+
 .sidebarContainer {
-    width: 16%;
+    width: 18%;
 }
 
 .sidebarContainer a:hover p,
@@ -20,4 +24,23 @@
 
 .menubar a.active svg {
     color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+
+.tagList a {
+    flex-basis: auto;
+}
+
+.videoCard {
+    width: 23%;
+}
+
+.videoCard span.views:after {
+    content: "";
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    background: #222;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 999px;
 }
